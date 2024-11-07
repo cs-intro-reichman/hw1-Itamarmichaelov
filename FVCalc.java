@@ -7,6 +7,6 @@ public class FVCalc {
 	intrest = (intrest / 100 );
 	double tottalValue = currentValue * (Math.pow( 1 + intrest, years));
 	intrest = ( intrest * 100 );
-	System.out.println( "After " + years + " years," + " $" + currentValue + " saved at " + intrest + "%" + " will yield" + " $" + (int)tottalValue);	
+	System.out.println( "After " + years + " years," + "a" + " $" + currentValue + " saved at " + intrest + "%" + " will yield" + " $" + (int)tottalValue);	
 	}
 }
